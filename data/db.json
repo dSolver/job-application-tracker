@@ -1,0 +1,129 @@
+{
+    "jobs": [
+        {
+            "id": "c05eb06d-7a19-470f-b91d-f01e3bbb8525",
+            "title": "SDE II",
+            "company": "Amazon",
+            "location": "New York, NY",
+            "description": "Drive the architecture and design of large-scale, multi-tiered, distributed software applications, tools, systems and services using object-oriented design, distributed programming, Java and C/C++. Gather business and functional requirements from external and/or internal customers and end-users, and translate requirements into technical specifications to build robust, scalable, supportable solutions that work well between a range of complex systems. Serve as technical lead throughout the full development lifecycle, end-to-end, from scoping, planning, conception, design, implementation and testing, to documentation, delivery and maintenance. Provide design reviews for other engineers, including feedback on architecture and design issues, as well as integration, performance and scalability. Manage resources on multiple technical projects and ensure schedules, milestones, and priorities are compatible with technology and business goals."
+        },
+        {
+            "id": "e052a3ef-56eb-41dd-83b1-e0d6e450677a",
+            "title": "Principal Ruby/JS Full-Stack Developer (Remote Canada)",
+            "company": "Autodesk",
+            "location": "Toronto (Virtual)",
+            "description": "Participate in creating the next Autodesk Platform for the Media and Entertainment industry. Utilizing an Autodesk cloud-based toolset supporting production pipelines in Film, VFX, and Game industries, we envision a future in which the Film, VFX, and Game industries operate more effectively and with greater creative agility. This is an opportunity to utilize your skills as you help us impact the productivity of hundreds of Studios while learning leading edge practices and technologies."
+        },
+        {
+            "id": "08204209-f410-4965-8811-17c01d9cd405",
+            "title": "Software Engineer, Frontend - Slack (Software II, Senior, and Staff)",
+            "company": "Slack",
+            "location": "Toronto (Virtual)",
+            "description": "As a Frontend Engineer you'll use your extensive knowledge of JavaScript, HTML, and CSS to improve the Slack web client, a complex in-browser application relied upon by millions of users every day. You will work with real-time data streams, engineer for performance across browsers, and delight people by making the best software we can imagine. You will collaborate closely with Product, Design, Application Engineering, and QA to spec, conceptualize, build, test and deploy new features for our large (and growing!) user base."
+        },
+        {
+            "id": "6876eac4-e798-490d-8b4b-6e2f8b90e88a",
+            "title": "Vice President of Product Management",
+            "company": "Bay Street HR",
+            "location": "Canada (Remote)",
+            "description": "We are seeking a highly experienced and dynamic Vice President of Product Management to join the Leadership Team. As a key member of the team, you will leverage your expertise in fintech and cryptocurrency capabilities that align with the overall vision and product strategy set by the Vice President of Product Management. In this role, you will work closely with the Marketing Director to ensure that product development is thoroughly researched, prioritized, and aligned with the business direction. You will be responsible for the implementation and go-to-market of the product vision, strategy, and roadmap to bring our product portfolio to market."
+        },
+        {
+            "id": "31ca9056-6e3a-4a3c-a8ce-1a1dac840c74",
+            "title": "Director of Engineering, Core Product",
+            "company": "Reddit, Inc",
+            "location": "British Columbia, Canada (Remote)",
+            "description": "Reddit is a community of communities where people can dive into anything through experiences built around their interests, hobbies, and passions. Our mission is to bring community, belonging, and empowerment to everyone in the world. Reddit users submit, vote, and comment on content, stories, and discussions about the topics they care about the most. From pets to parenting, there’s a community for everybody on Reddit and with over 50 million daily active users, it is home to the most open and authentic conversations on the internet. For more information, visit redditinc.com."
+        },
+        {
+            "id": "5d83c7ba-693b-4d08-829b-16b90c3df0c3",
+            "title": "Senior Deep Learning Researcher, ASR (PhD)",
+            "company": "AssemblyAI",
+            "location": "United States (Remote)",
+            "description": "AssemblyAI is growing quickly, and we’re searching for a Deep Learning Researcher to join our team. With significant investment and strong leadership to fuel our growth, it’s the perfect time to join the AssemblyAI team!"
+        },
+        {
+            "id": "5135c5e9-430a-4bfa-9932-fbc72af8936c",
+            "title": "Front End Engineer",
+            "company": "Carta Healthcare",
+            "location": "United States (Remote)",
+            "description": "We are looking for a Frontend React Engineer who is motivated to combine the art of design with the art of programming. Responsibilities will include translation of the UI/UX design wireframes to actual code that will produce visual elements of the application. You will work with the UI/UX designer and bridge the gap between graphical design and technical implementation, taking an active role on both sides and defining how the application looks as well as how it works."
+        },
+        {
+            "id": "6375c2a3-f1ec-445a-a2ae-236e408bfa78",
+            "title": "Senior Java Architect",
+            "company": "Avant-Garde Solutions, Ltd.",
+            "location": "Michigan, United States (Remote)",
+            "description": "Senior Java Architect/ Lead with · J2EE/Java development background for Long term role. Minimum of 10 years experience in advanced technologies including a minimum of 5+ years as a technical architect"
+        },
+        {
+            "id": "8b60c1b1-0c8b-4c29-a415-0751cc74fdaa",
+            "title": "Senior Graphic Designer",
+            "company": "Hyperproof",
+            "location": "United States (Remote)",
+            "description": "You have a passion for visual story-telling and want to make an impact as an early member of a high-growth startup. You inspire others around you, work well across departments, and collaborate with team members of varied experiences. You’re a constant learner, and you’re curious and creative."
+        },
+        {
+            "id": "5c38ac9a-d98c-41d7-8dab-63aa2b6ad956",
+            "title": "Senior Software Engineer, AI/ML Serving, Cloud Platform",
+            "company": "Modular",
+            "location": "San Jose, CA (Remote)",
+            "description": "At Modular, we are building a next generation AI/ML Cloud Platform, a core part of which is developing an AI Inference Serving software stack, that \"just works\" across cloud environments, and compute hardware types (CPU, GPU, AI accelerators). As an engineer on our team you will build a AI/ML model serving system that scales to the largest AI models with distributed execution across devices and hosts, delivers high throughput and cost efficiency, meets strictest latency requirements, and is highly tolerant to common hardware and software failures. Join our world-leading AI infrastructure team and develop a meticulously designed and engineered cloud AI infrastructure stack."
+        },
+        {
+            "id": "2c69dfc9-fa61-4ff5-8f4d-6d52e447be13",
+            "title": "Principal C++ Engineer, XR (Remote Americas)",
+            "company": "Autodesk",
+            "location": "Greater Vancouver Metropolitan Area (Remote)",
+            "description": "In this role, you will be part of the team responsible for building and delivering XR workflows to the Architecture, Engineering, and Construction industry (AEC). This multi-disciplinary team is operating in a start-up mode within Autodesk with autonomy on product of course, but also sales, strategy, marketing, and operations. In this role, you will be reporting to the XR Software Engineering Manager."
+        },
+        {
+            "id": "ed2123a3-2327-4c22-aea6-8389f8920c38",
+            "title": "Senior Staff Engineer, Frontend - Checkout",
+            "company": "Shopify",
+            "location": "Canada (Remote)",
+            "description": "In the Checkout team, Senior Tech Lead Engineers (also referred to as Senior Staff Engineers) use their expertise and passion to multiply the overall output of the team and work with many teams across Shopify to influence the direction of our product and codebase. As a senior technical leader, you'll help drive the product vision to its implementation. You and the team will design and build technically innovative solutions that empower all teams at Shopify to build amazing new features into Shopify’s Checkout. Merchants that depend on Shopify for a highly scalable, performant, and reliable platform benefit directly from the work you do. You will maintain a high bar for quality and lead and mentor other engineers. And of course, you'll be hands-on in the code and contribute technically. Here are just some of the stories from the teams who build and scale Shopify. Checkout is the core of Shopify. Checkout is Shopify. And the impact you will have by working on the widest used Checkout in the world will be massive."
+        },
+        {
+            "id": "40a8f0f2-0d4b-4f92-8d42-324b28e30003",
+            "title": "Senior Full-Stack Engineer - Canada",
+            "company": "BetterUp",
+            "location": "Canada (Remote)",
+            "description": "We're looking for someone who cares deeply about their craft, and who wants to use their skills to bring about positive change in the world while working in a high performing organization using modern software development approaches. Someone who is comfortable in the rapidly changing nature of a startup environment but also adept at moving relentlessly forward: doing what needs to be done to unblock projects that truly deliver value to our users. At BetterUp we delight in supporting and pushing each other to bring out the best in our colleagues, and would love someone to join the team who shares our passions for empathy, excellence, and continuous improvement. We also deeply understand that a key to peak performance is balance, and our culture is focused on providing the support our people need to be able to bring their whole selves to bear in service of our mission. In this role you will build, deploy and maintain integrations, services and features that enable the human transformation platform to drive just-in-time personal development, and help people reach their full potential."
+        },
+        {
+            "id": "53bae24a-603b-46ab-b86c-3bdd1aa54f84",
+            "title": "Solutions Architect - Remote",
+            "company": "ChemTreat",
+            "location": "Burnaby, BC (Remote)",
+            "description": "The Solutions Architect will play a crucial role by owning the design and implementation of the cloud-based Data Warehousing & Business Analytics architecture, inclusive of data ingestion, data storage, data integration, data security and presentation. This is an exciting opportunity to conduct periodic architecture evaluations to improve the existing environment, research emerging technologies and propose enhancements to the platform."
+        },
+        {
+            "id": "e0de12cc-6ad5-44c5-9660-ff9e7617617d",
+            "title": "Lead Technical Designer - skate. (remote/hybrid)",
+            "company": "Full Circle Studio",
+            "location": "Vancouver, BC (Remote)",
+            "description": "We are Full Circle, and we're all about having fun and making great games that people want to play with their friends. As the developers of Skate™, we are set to deliver an experience that embraces and builds upon everything our community found special about the previous games. We believe in creating an inclusive world inside and outside of our games for our players and our team. As a geo-diverse studio, our team members around the globe can either work from home, in the office or a hybrid of both."
+        },
+        {
+            "id": "c0443065-2bc4-42fd-96bc-5e095b4ea217",
+            "title": "Senior Architect I - Digital Content Engineering",
+            "company": "lululemon",
+            "location": "Vancouver, BC (On-site)",
+            "description": "lululemon is an innovative performance apparel company for yoga, running, training, and other athletic pursuits. Setting the bar in technical fabrics and functional design, we create transformational products and experiences that support people in moving, growing, connecting, and being well. We owe our success to our innovative product, emphasis on stores, commitment to our people, and the incredible connections we make in every community we're in. As a company, we focus on creating positive change to build a healthier, thriving future. In particular, that includes creating an equitable, inclusive and growth-focused environment for our people."
+        },
+        {
+            "id": "e877f466-3391-4616-9306-2683e0e8746f",
+            "title": "Principal Software Engineer",
+            "company": "Microsoft",
+            "location": "Vancouver, BC (Remote)",
+            "description": "We are looking for a Principal Software Engineer to drive the architectural vision and evolution of data collection, processing, and analytics platform. Our systems process almost a petabyte of data every day that capture multi-million events per minute. We own the big data platform and intelligent analytics platform for all of Teams. The telemetry team's charter is to enable our feature teams to understand their customers and drive strategic investment to make customers successful."
+        },
+        {
+            "id": "39611b3d-2320-4082-b91e-a04c2ab17509",
+            "title": ""
+        }
+    ],
+    "applications": [],
+    "resumes": []
+}
