@@ -15,5 +15,9 @@ export const SearchService = {
         })
 
         return data as JobOpportunity[]
+    },
+    getJobById: async (jobId: string) => {
+        const { data } = await ax.get('/jobs/' + jobId)
+        return data as JobOpportunity
     }
 }

@@ -4,16 +4,32 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
 import InputBase from '@mui/material/InputBase';
+import Stack from '@mui/material/Stack';
 import { alpha, styled } from '@mui/material/styles';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import * as React from 'react';
 
-const JobSearchInput = React.lazy(()=> import("job_search/JobSearchInput"))
+const JobSearchInput = React.lazy(() => import("job_search/JobSearchInput"))
+const AddResumeButton = React.lazy(() => import('my_profile/AddResumeButton'))
 
 export interface HeaderProps {
     title: string
 }
+
+// DANGEROUS PATTERN:
+// By moving the job application function up to a root component,
+// we are exposing this function for other domains.
+// Since applying for a job and searching for a job are inherently
+// in a more similar domain, we should give them the flexibility
+// to be more tightly coupled
+
+const applyJob = async (jobId: string) => {
+    const { ApplicationService } = await import('application_tracking/ApplicationService')
+    console.log(ApplicationService)
+    await ApplicationService.applyJob(jobId, 'test')
+}
+
 
 export default function Header({ title }: HeaderProps) {
     return (
@@ -32,9 +48,14 @@ export default function Header({ title }: HeaderProps) {
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                         {title}
                     </Typography>
-                    <React.Suspense fallback={"loading"}>
-                        <JobSearchInput />
-                    </React.Suspense>
+                    <Stack direction="row" gap={2}>
+                        <React.Suspense fallback={"loading"}>
+                            <AddResumeButton />
+                        </React.Suspense>
+                        <React.Suspense fallback={"loading"}>
+                            <JobSearchInput onApply={applyJob} />
+                        </React.Suspense>
+                    </Stack>
                     {/* <Search>
                         <SearchIconWrapper>
                             <SearchIcon />

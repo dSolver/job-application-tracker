@@ -4,5 +4,6 @@ export interface JobOpportunity {
     company: string;
     location: string;
     description: string;
-    PCs: Array<{ id: string, minScore: number }>;
+    salary: string;
+    PCs?: Array<{ id: string, minScore: number }>;
 }

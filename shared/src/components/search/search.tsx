@@ -76,7 +76,7 @@ const Search = ({ fields, onInputChange, results }: SearchProps) => {
         [SearchFields.keyword]: (
 
             <div data-component="search-box">
-                <InputBase onChange={(evt) => {
+                <InputBase placeholder='Search Jobs' onChange={(evt) => {
                     const newInputValue = evt.target.value;
                     clearTimeout(searchDebounceTimer.current)
                     searchDebounceTimer.current = window.setTimeout(() => {

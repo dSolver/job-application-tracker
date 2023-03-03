@@ -47,7 +47,7 @@ federationConfig = {
           `
   },
   exposes: {
-    "./ResumeBuilder": "./src/components/resume-builder.tsx"
+    "./AddResumeButton": "./src/components/add-resume-button.tsx"
   },
   shared: {
     "react": {

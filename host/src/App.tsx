@@ -9,7 +9,7 @@ import Header from './components/header';
 function App() {
   return (
     <div className="App">
-      <Stack direction={'column'}>
+      <Stack direction={'column'} sx={{ height: '100%'}}>
         <Header title={'Applications Manager'} />
         <Dashboard />
       </Stack>

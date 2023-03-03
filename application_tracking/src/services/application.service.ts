@@ -79,3 +79,5 @@ export const ApplicationService = {
         await ax.put('applications/' + application.id, application)
     }
 }
+
+export default ApplicationService

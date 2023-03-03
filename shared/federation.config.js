@@ -14,7 +14,8 @@ federationConfig = {
   filename: 'remoteEntry.js',
   remotes: {},
   exposes: {
-    "./Search": "./src/components/search/search.tsx"
+    "./Search": "./src/components/search/search.tsx",
+    "./JobSummaryIA": "./src/components/job-summary-ia.tsx"
   },
   shared: {
     "react": {

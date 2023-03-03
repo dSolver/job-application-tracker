@@ -1,1 +1,2 @@
 declare module "application_tracking/RecentApplicationsCard"
+declare module "application_tracking/ApplicationService"

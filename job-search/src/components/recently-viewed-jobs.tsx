@@ -5,12 +5,10 @@ const RecentlyViewedJobsCard = () => {
     return (
         <div>
             <Card>
-                <CardActionArea>
-                    <CardContent>
-                        <h3>Recently viewed jobs</h3>
-                        <Stack></Stack>
-                    </CardContent>
-                </CardActionArea>
+                <CardContent>
+                    <h2>Recently viewed jobs</h2>
+                    <Stack></Stack>
+                </CardContent>
             </Card>
         </div>
     )

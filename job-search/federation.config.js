@@ -77,8 +77,9 @@ federationConfig = {
   },
   exposes: {
     "./JobSearchResult": "./src/components/job-search-result.tsx",
-    "./JobSearchInput": "./src/components/job-search-input.tsx",
-    "./RecentlyViewedJobsCard": "./src/components/recently-viewed-jobs.tsx"
+    "./RecentlyViewedJobsCard": "./src/components/recently-viewed-jobs.tsx",
+    "./JobSummary": "./src/components/job-summary.tsx",
+    "./JobSearchInput": "./src/components/job-search-input.tsx"
   },
   shared: {
     "react": {

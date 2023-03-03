@@ -6,16 +6,13 @@ const RecentlyViewedJobsCard = React.lazy(() => import('job_search/RecentlyViewe
 export const Dashboard = () => {
 
     return (
-        <div data-test-component="Dashboard">
+        <Stack gap={4} sx={{ height: '100%' }}>
             <h1>Dashboard</h1>
-            <Stack direction={'row'}>
+            <Stack direction={'row'} sx={{ backgroundColor: '#f0f0f0', padding: '16px', maxWidth: '1200px', minWidth: '80vw', margin: 'auto' }}>
                 <React.Suspense fallback={'Loading Recent Applications'}>
                     <RecentApplicationsCard />
                 </React.Suspense>
-                <React.Suspense fallback={'Loading Recent Applications'}>
-                    <RecentlyViewedJobsCard />
-                </React.Suspense>
             </Stack>
-        </div>
+        </Stack>
     )
 }
