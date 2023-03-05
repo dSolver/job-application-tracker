@@ -8,7 +8,9 @@ specifiers:
   '@babel/preset-typescript': ^7.10.4
   '@emotion/react': ^11.10.6
   '@emotion/styled': ^11.10.6
+  '@mui/icons-material': ^5.11.11
   '@mui/material': ^5.11.11
+  '@types/axios': ^0.14.0
   '@types/lodash': ^4.14.191
   '@types/react': ^18.0.28
   '@types/react-dom': ^18.0.11
@@ -35,7 +37,9 @@ specifiers:
 dependencies:
   '@emotion/react': 11.10.6_pmekkgnqduwlme35zpnqhenc34
   '@emotion/styled': 11.10.6_oouaibmszuch5k64ms7uxp2aia
+  '@mui/icons-material': 5.11.11_h5fh5ntwxtyr677wxvzgewjsma
   '@mui/material': 5.11.11_xqeqsl5kvjjtyxwyi3jhw3yuli
+  '@types/axios': 0.14.0
   '@types/lodash': 4.14.191
   axios: 1.3.4
   lodash: 4.17.21
@@ -1538,6 +1542,23 @@ packages:
     resolution: {integrity: sha512-0YK0K9GfW1ysw9z4ztWAjLW+bktf+nExMyn2+EQe1Ijb0kF2kz1kIOmb4+di0/PsXG70uCuw4DhEIdNd+JQkRA==}
     dev: false
 
+  /@mui/icons-material/5.11.11_h5fh5ntwxtyr677wxvzgewjsma:
+    resolution: {integrity: sha512-Eell3ADmQVE8HOpt/LZ3zIma8JSvPh3XgnhwZLT0k5HRqZcd6F/QDHc7xsWtgz09t+UEFvOYJXjtrwKmLdwwpw==}
+    engines: {node: '>=12.0.0'}
+    peerDependencies:
+      '@mui/material': ^5.0.0
+      '@types/react': ^17.0.0 || ^18.0.0
+      react: ^17.0.0 || ^18.0.0
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+    dependencies:
+      '@babel/runtime': 7.21.0
+      '@mui/material': 5.11.11_xqeqsl5kvjjtyxwyi3jhw3yuli
+      '@types/react': 18.0.28
+      react: 18.2.0
+    dev: false
+
   /@mui/material/5.11.11_xqeqsl5kvjjtyxwyi3jhw3yuli:
     resolution: {integrity: sha512-sSe0dmKjB1IGOYt32Pcha+cXV3IIrX5L5mFAF9LDRssp/x53bluhgLLbkc8eTiJvueVvo6HAyze6EkFEYLQRXQ==}
     engines: {node: '>=12.0.0'}
@@ -1670,6 +1691,15 @@ packages:
 
   /@popperjs/core/2.11.6:
     resolution: {integrity: sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==}
+    dev: false
+
+  /@types/axios/0.14.0:
+    resolution: {integrity: sha512-KqQnQbdYE54D7oa/UmYVMZKq7CO4l8DEENzOKc4aBRwxCXSlJXGz83flFx5L7AWrOQnmuN3kVsRdt+GZPPjiVQ==}
+    deprecated: This is a stub types definition for axios (https://github.com/mzabriskie/axios). axios provides its own type definitions, so you don't need @types/axios installed!
+    dependencies:
+      axios: 1.3.4
+    transitivePeerDependencies:
+      - debug
     dev: false
 
   /@types/body-parser/1.19.2:

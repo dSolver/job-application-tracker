@@ -36,6 +36,11 @@
     "webpack-dev-server": "^4.3.1"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.11",
+    "@types/axios": "^0.14.0",
     "@types/lodash": "^4.14.191",
     "@types/quill": "^2.0.10",
     "@types/uuid": "^9.0.1",
