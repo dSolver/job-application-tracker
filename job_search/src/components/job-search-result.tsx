@@ -20,6 +20,12 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 const JobSummaryIA = React.lazy(() => import('shared/JobSummaryIA'))
 
+async function getJobSummaryIA() {
+    await import('shared/JobSummaryIA')
+}
+import('shared/JobSummaryIA').then((val) => {
+    console.log('loaded jobSummaryIA')
+})
 
 interface ExpandMoreProps extends IconButtonProps {
     expand: boolean;
